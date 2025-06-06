@@ -312,7 +312,7 @@ def extract_bundle(bundle_path: str = None, output_dir: str = None):
 
     print(f"\nExtraction completed. Files saved to '{output_dir}'. Log saved to '{log_file}'.")
     print(f"Summary: {log['successful_extractions']} objects successfully extracted, {log['failed_extractions']} failed or extracted to generic format.")
-    print("Thanks for using this script! Credit: @alwizba. Licensed under MIT License.")
+    print("Thanks for using this script! Credit: @lenzarchive. Licensed under MIT License.")
     
 if __name__ == "__main__":
     extract_bundle()
