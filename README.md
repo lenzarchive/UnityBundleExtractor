@@ -66,14 +66,18 @@ tqdm
     ```bash
     pip install -r requirements.txt
     ```
+    or
+    ```bash
+    python -m pip install -r requirements.txt
+    ```
 
-3.  **Run the script**:
+4.  **Run the script**:
 
     ```bash
     python main.py
     ```
 
-4.  **Provide inputs**:
+5.  **Provide inputs**:
     The script will prompt you to enter the full path to your Unity `.bundle` file and the desired output folder path.
 
     ```
@@ -81,10 +85,10 @@ tqdm
     Please enter the output folder path: D:\output\extracted_assets
     ```
 
-5.  **Monitor extraction**:
+6.  **Monitor extraction**:
     A progress bar will appear, showing the extraction progress. Any critical errors will be displayed in the console.
 
-6.  **Check results**:
+7.  **Check results**:
     Once the extraction is complete, your extracted assets will be organized into subfolders within the specified output directory (e.g., `D:\output\extracted_assets\Texture2D\`, `D:\output\extracted_assets\MonoBehaviour_basic.json`).
     A detailed `extraction_log.txt` file will also be generated in the output directory, which is crucial for reviewing extraction status and any encountered issues.
 
