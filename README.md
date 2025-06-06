@@ -85,8 +85,8 @@ tqdm
     The script will prompt you to enter the full path to your Unity `.bundle` file and the desired output folder path.
 
     ```
-    Please enter the .bundle file path: D:\path\to\your\bundle\file.bundle
-    Please enter the output folder path: D:\output\extracted_assets
+    Please enter the .bundle file path: C:\path\to\your\bundle\file.bundle
+    Please enter the output folder path: C:\output\extracted_assets
     ```
 
 6.  **Monitor extraction**:
