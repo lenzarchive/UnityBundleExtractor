@@ -54,11 +54,11 @@ tqdm
 1.  **Clone the repository**:
 
     ```bash
-    git clone https://github.com/alwizba/UnityBundleExtractor.git
+    git clone https://github.com/lenzarchive/UnityBundleExtractor.git
     cd UnityBundleExtractor
     ```
 
-    (Replace `https://github.com/alwizba/UnityBundleExtractor.git` with the actual URL of your repository.)
+    (Replace `https://github.com/lenzarchive/UnityBundleExtractor.git` with the actual URL of your repository.)
 
 2.  **Install dependencies**:
     Ensure you have pip installed, then run:
@@ -113,7 +113,7 @@ Your contributions help make this tool better for everyone\!
 ## Credit
 
 Thanks for using this script\!
-Credit: [@alwizba](https://www.google.com/search?q=https://github.com/alwizba)
+Credit: [@lenzarchive](https://www.google.com/search?q=https://github.com/lenzarchive)
 
 ## License
 
