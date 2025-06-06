@@ -192,16 +192,12 @@ def extract_bundle(bundle_path: str = None, output_dir: str = None):
                         extracted_basic_fields["m_Script_PathID"] = data.m_Script.path_id
                     
                     if extracted_basic_fields:
-                        # Attempt to read typetree, but if it fails, basic fields are still saved.
-                        # This specific handling for MonoBehaviour is to avoid AttributeError: 'MonoBehaviour' object has no attribute 'read_typetree'
                         try:
-                            # If read_typetree is available and works for this specific MonoBehaviour instance
                             info = data.read_typetree() 
                             with open(final_output_path + ".json", "w", encoding="utf-8") as out_file:
                                 json.dump(info, out_file, indent=4)
                             extracted_successfully_current_obj = True
                         except Exception as e_typetree_mono:
-                            # If typetree read fails, save the extracted basic fields.
                             with open(final_output_path + "_basic.json", "w", encoding="utf-8") as out_file:
                                 json.dump(extracted_basic_fields, out_file, indent=4)
                             extracted_successfully_current_obj = True
