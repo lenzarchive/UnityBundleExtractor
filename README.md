@@ -117,7 +117,7 @@ Your contributions help make this tool better for everyone\!
 ## Credit
 
 Thanks for using this script\!
-Credit: [@lenzarchive](https://github.com/lenzarchive)
+Credit: [@alwizba](https://github.com/lenzarchive)
 
 ## License
 
