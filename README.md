@@ -41,6 +41,10 @@ You can install these dependencies using pip:
 ```bash
 pip install -r requirements.txt
 ```
+or
+```bash
+python -m pip install -r requirements.txt
+```
 
 ### `requirements.txt` content:
 
