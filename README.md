@@ -26,8 +26,6 @@ A robust Python script for extracting various assets from Unity3D bundle files. 
 
 This tool is provided for **educational and research purposes only**. It is intended to help developers, researchers, and enthusiasts understand the structure of Unity game assets and facilitate legitimate modding, analysis, or asset recovery for **personal projects where legal permissions are obtained**.
 
-**The use of this tool for illegal activities, copyright infringement, reverse engineering of proprietary software without permission, or any other unauthorized commercial exploitation is strictly prohibited.** The creator and maintainers of this repository are not responsible for any misuse or damage caused by the use of this tool. Users are solely responsible for ensuring their actions comply with all applicable laws and licenses.
-
 ## Requirements
 
 To run this script, you need to have Python installed on your system (Python 3.7+ is recommended).
