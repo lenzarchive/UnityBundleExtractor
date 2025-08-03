@@ -125,6 +125,10 @@ Encountered a bug? Have an idea for a new feature? We welcome contributions! Ple
 
 Your contributions help make this tool better for everyone!
 
+## Version
+
+GUI Version: [Click](https://github.com/ube-gui)
+
 ## Credit
 
 Thanks for using this script!
