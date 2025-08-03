@@ -127,7 +127,7 @@ Your contributions help make this tool better for everyone!
 
 ## Version
 
-GUI Version: [Click](https://github.com/ube-gui)
+GUI Version: [Click](https://github.com/lenzarchive/ube-gui)
 
 ## Credit
 
